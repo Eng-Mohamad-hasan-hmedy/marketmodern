@@ -1,0 +1,94 @@
+.fade-enter {
+  opacity: 1;
+  transform: translateX(100%);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.fade-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.fade-exit-active {
+  opacity: 1;
+  transform: translateX(-100%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* You can create additional classes for different directions */
+
+.fade-top-enter {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+.fade-top-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.fade-top-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-top-exit-active {
+  opacity: 1;
+  transform: translateY(100%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.fade-bottom-enter {
+  opacity: 1;
+  transform: translateY(100%);
+}
+.fade-bottom-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.fade-bottom-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-bottom-exit-active {
+  opacity: 1;
+  transform: translateY(-100%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  height: 100vh;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 93%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0;
+  height: 200px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

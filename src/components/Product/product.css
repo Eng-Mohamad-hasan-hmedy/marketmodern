@@ -1,0 +1,132 @@
+.productDetailes {
+  display: flex;
+  gap: 100px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+
+.smallImages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ImageProductDetail {
+  height: 700px;
+  width: 40%;
+  margin-left: -90px;
+}
+
+.manyImageBtn {
+  width: 70px;
+  height: 70px;
+}
+
+.contentDetails {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contentDetails h2 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.titleDescription {
+  font-weight: 400;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.contentDetails .chip {
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.contentDetails ul {
+  list-style: circle;
+  padding-left: 40px;
+}
+
+.btnsSizes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnsSizes .btn {
+  background-color: #fff;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid #0a0a0a54;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 0.2s ease;
+}
+
+.Quantity {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  list-style: none;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 0.2s ease;
+}
+
+.btnadd {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 0.2s ease;
+  font-weight: 600 !important;
+}
+
+.Quantity:hover,
+.btnsSizes .btn:hover,
+.btnadd:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  transform: translateY(4px);
+}
+
+.Quantity .btnsize {
+  background-color: transparent;
+  font-weight: 400;
+  color: black;
+  font-size: 30px !important;
+  border: none;
+}
+
+.content-text-product {
+  font-weight: 200;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1240px) {
+  .mainSectionDetail .container {
+    width: 80%;
+  }
+  .smallImages {
+    display: none;
+  }
+  .ImageProductDetail {
+    width: 100%;
+    margin: 0;
+    height: 700px;
+  }
+  .contentDetails {
+    width: 100%;
+  }
+  .btnsSizes {
+    gap: 40px;
+  }
+}

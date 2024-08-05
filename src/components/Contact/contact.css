@@ -1,0 +1,102 @@
+.contact__content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 300px;
+}
+
+input,
+textarea {
+  background: #fafafa;
+  outline: none;
+  border: 2px solid #0000002a;
+  font-size: 20px;
+}
+label {
+  margin-bottom: 10px;
+}
+
+.contact__content .text__content {
+  width: 48%;
+}
+
+.contact__content .text__content h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.contact__content .text__content p {
+  font-size: 20px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.493);
+}
+
+.contact__content .contact__inputs {
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameInputForm {
+  display: flex;
+  gap: 4%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.inputName {
+  width: 45%;
+}
+
+.inputName input {
+  width: 100%;
+  height: 40px;
+}
+
+.emailForm,
+.subject,
+.message {
+  width: 100%;
+
+  margin-bottom: 20px;
+}
+
+.emailForm input,
+.subject input {
+  width: 94%;
+  height: 40px;
+}
+
+.message textarea {
+  width: 94%;
+  height: 100px;
+}
+
+.required {
+  color: red;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer__contact {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 1300px) {
+  .contact__content {
+    justify-content: center;
+
+    width: 100%;
+  }
+  .contact__content .text__content {
+    margin-bottom: 50px;
+
+    width: 100%;
+  }
+  .contact__content .contact__inputs {
+    width: 100%;
+
+  }
+}
